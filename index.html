@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    
+<div class="container bg-color">
+    <header class="">
+      <nav>
+        <ul>
+          <li id="time"></li>
+          <li><i class= "fa fa-signal"></i></li>
+          <li><i class="fa fa-wifi"></i></li>
+          <li><i class="fa fa-battery-half" id="right"></i></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div class="dark-mode">
+      <span>Dark mode</span>
+      <div class="circle" id="darkmode">
+        <i class="fa fa-moon-o"></i>
+      </div>
+    </div>
+    <div class="display">
+      <input type="text" id="output" placeholder="0" class="bg-color">
+    </div>
+      <div class="btns">
+        <button id="clear" class="btn func-btn bg-color">C</button>
+        <button class="btn func-btn bg-color disBtn" id="divied">/</button>
+        <button class="btn func-btn bg-color disBtn" id="muntiply">*</button>
+        <button id="remove" class="btn func-btn bg-color"><i class="fa fa-arrow-left"></i></button>
+      </div>
+      <div class="btns">
+        <button class="btn bg-color">7</button>
+        <button class="btn bg-color">8</button>
+        <button class="btn bg-color">9</button>
+        <button class="btn func-btn bg-color">-</button>
+      </div>
+      <div class="btns">
+        <button class="btn bg-color">1</button>
+        <button class="btn bg-color">2</button>
+        <button class="btn bg-color">3</button>
+        <button class="btn func-btn bg-color disBtn" id="plus">+</button>
+      </div>
+      <div class="btns last">
+        <button class="btn bg-color">4</button>
+        <button class="btn bg-color">5</button>
+        <button class="btn bg-color">6</button>
+        <button id="total" class="func-btn bg-color">=</button>
+      </div>
+     <div class="btns last">
+        <button class="btn bg-color">.</button>
+        <button class="btn bg-color">0</button>
+        <button class="btn func-btn bg-color" id="percent">%</button>
+     </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
